@@ -7,24 +7,18 @@
   "exports": {
     ".": {
       "import": {
-        "types": "./types/esm/index.d.ts",
-        "default": "./esm/index.js"
-      },
-      "require": {
-        "types": "./types/commonjs/index.d.cts",
-        "default": "./commonjs/index.cjs"
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
       }
     }
   },
-  "types": "./types/index.d.ts",
-  "main": "./commonjs/index.cjs",
   "scripts": {
     "test": "exit 0",
     "build": "tsc"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "typescript": "^5.2.2"
   }
 }
