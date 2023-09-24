@@ -15,7 +15,7 @@ __metadata:
 
 "typescript@npm:^5.2.2":
   version: 5.2.2
-  resolution: "typescript@npm:5.2.2::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Ftypescript%2F-%2Ftypescript-5.2.2.tgz"
+  resolution: "typescript@npm:5.2.2"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
@@ -25,7 +25,7 @@ __metadata:
 
 "typescript@patch:typescript@npm%3A^5.2.2#optional!builtin<compat/typescript>":
   version: 5.2.2
-  resolution: "typescript@patch:typescript@npm%3A5.2.2%3A%3A__archiveUrl=https%253A%252F%252Frepo.dev.wixpress.com%252Fartifactory%252Fapi%252Fnpm%252Fnpm-repos%252Ftypescript%252F-%252Ftypescript-5.2.2.tgz#optional!builtin<compat/typescript>::version=5.2.2&hash=f3b441"
+  resolution: "typescript@patch:typescript@npm%3A5.2.2#optional!builtin<compat/typescript>::version=5.2.2&hash=f3b441"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
