@@ -1,5 +1,29 @@
 {
   "packageManager": "yarn@4.0.0-rc.51",
+  "name": "spotlight",
+  "description": "Create a tutorial for your website by spotlight HTML elements!",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./types/esm/index.d.ts",
+        "default": "./esm/index.js"
+      },
+      "require": {
+        "types": "./types/commonjs/index.d.cts",
+        "default": "./commonjs/index.cjs"
+      }
+    }
+  },
+  "types": "./types/index.d.ts",
+  "main": "./commonjs/index.cjs",
+  "scripts": {
+    "test": "exit 0",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "typescript": "^5.2.2"
   }
